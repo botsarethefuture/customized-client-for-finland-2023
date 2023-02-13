@@ -1,0 +1,352 @@
+{
+    "elements": {
+        "friends-invite-modal": {
+            "heading": "Bjud in vänner",
+            "description": "Bjud in dina vänner till en delad session där alla kan se varandras svar i realtid.",
+            "form": {
+                "name": {
+                    "label": "Ditt namn / smeknamn",
+                    "description": "Ange ditt namn så att dina vänner kan känna igen dig. Du kan också använda ett smeknamn."
+                }
+            },
+            "introduction": {
+                "heading": "Vad är en delad session?",
+                "explanation": "[\"Med en delad session kan du uppleva valkompassen tillsammans med dina vänner. En person bjuder in de andra till en delad session. När alla har anslutit sig kan var och en av er använda valkompassen som ni normalt skulle göra. Men förutom partierna kan ni nu också se varandras svar och starta en diskussion.\"]]"
+            },
+            "security": {
+                "heading": "Är mina svar säkra?",
+                "explanation": "['Ja! Dina svar utbyts direkt mellan dina enheter via en säker anslutning. En server hjälper enheterna att hitta varandra på Internet - dina svar skickas dock inte via servern utan direkt från enhet till enhet.\"]"
+            },
+            "registration": {
+                "heading": "Måste jag registrera mig för att använda denna funktion?",
+                "explanation": "['Ingen registrering är nödvändig. Allt du behöver göra är att ange ditt namn så kan du delta i en session.']]"
+            },
+            "cancel": "Avbryt",
+            "confirm": "Öppet sammanträde"
+        },
+        "friends-join-modal": {
+            "heading": "Gå med vänner",
+            "description": "Anslut med dina vänner i en delad session och se allas svar i realtid.",
+            "form": {
+                "name": {
+                    "label": "Ditt namn / smeknamn",
+                    "description": "Ange ditt namn så att dina vänner kan känna igen dig. Du kan också använda ett smeknamn."
+                },
+                "join": {
+                    "label": "Vänns enhet",
+                    "description": "Gå med i en delad session genom att ange enhets-ID för den som är värd för sessionen."
+                }
+            },
+            "introduction": {
+                "heading": "Vad är en delad session?",
+                "explanation": "[\"Med en delad session kan du uppleva valkompassen tillsammans med dina vänner. En person bjuder in de andra till en delad session. När alla har anslutit sig kan var och en av er använda valkompassen som ni normalt skulle göra. Men förutom partierna kan ni nu också se varandras svar och starta en diskussion.\"]]"
+            },
+            "security": {
+                "heading": "Är mina svar säkra?",
+                "explanation": "['Ja! Dina svar utbyts direkt mellan dina enheter via en säker anslutning. En server hjälper enheterna att hitta varandra på Internet - dina svar skickas dock inte via servern utan direkt från enhet till enhet.\"]"
+            },
+            "registration": {
+                "heading": "Måste jag registrera mig för att använda denna funktion?",
+                "explanation": "['Ingen registrering är nödvändig. Allt du behöver göra är att ange ditt namn så kan du delta i en session.']]"
+            },
+            "cancel": "Avbryt",
+            "confirm": "Gå med i"
+        },
+        "friends-list": {
+            "heading": "Anslutna enheter",
+            "empty": "Värden måste acceptera din begäran för att få delta i sessionen.",
+            "host": "Värd"
+        },
+        "friends-status-modal": {
+            "heading": "Delad session",
+            "mode": {
+                "INACTIVE": {
+                    "heading": "Inte ansluten",
+                    "text": "Du är inte ansluten till någon. Gå med i en befintlig session eller ordna en egen via huvudmenyn."
+                },
+                "GUEST": {
+                    "heading": "Gäst",
+                    "text": "Du deltar i en delad session som hålls av någon annan."
+                },
+                "HOST": {
+                    "heading": "Värd",
+                    "text": "Du är värd för den här sessionen. Bjud in dina vänner med hjälp av ditt enhets-ID och acceptera deras förfrågningar om att delta."
+                }
+            },
+            "own-peer-id": {
+                "label": "Din enhet",
+                "description": "Detta är ditt enhets-ID. Dina vänner måste ange detta på sin enhet för att kunna ansluta till vår gemensamma session."
+            }
+        },
+        "guests-list": {
+            "heading": "Anslutna enheter",
+            "empty": "Ingen har ännu deltagit i sessionen.",
+            "accept": "Acceptera",
+            "status": {
+                "connecting": "Anslutning av",
+                "connected": "Ansluten",
+                "disconnected": "Frånkopplad"
+            }
+        },
+        "guide-button": {
+            "start": "Nu går vi.",
+            "introduction": "Lär dig hur detta fungerar",
+            "first-thesis": "Börja med den första avhandlingen",
+            "thesis": "Fortsätt till nästa avhandling",
+            "party": "Välj parter",
+            "match": "Se ditt resultat",
+            "compare": "Läs uttalandena"
+        },
+        "kiosk-mode": {
+            "heading": "Ska vi återställas?",
+            "description": "Valkompassen kommer nu att återställas och alla dina svar kommer att raderas. | Valkompassen kommer att nollställas om {count} sekunder och alla dina svar kommer att raderas. | Valkompassen kommer att nollställas om {count} sekunder och alla dina svar kommer att raderas.",
+            "reset": "Återställ nu",
+            "resume": "Inte än!"
+        },
+        "language-switch": {
+            "button": "Språk",
+            "heading": "Språk",
+            "description": "Välj det språk som du föredrar."
+        },
+        "main-navigation": {
+            "menu": "Meny",
+            "thesis": "Avhandling {count}",
+            "links": {
+                "compass": "Valkompass",
+                "languages": "Ändra språk",
+                "friends-join": "Gå med vänner",
+                "friends-invite": "Bjud in vänner",
+                "reset": "Återställ",
+                "home": "Starta",
+                "introduction": "Introduktion",
+                "theses": "Avhandlingar",
+                "evaluation": "Utvärdering",
+                "party": "Val av parti",
+                "match": "Resultat",
+                "compare": "Uttalanden",
+                "about": "Om"
+            }
+        },
+        "open-election-compass-logo": {
+            "alt": "Valkompassens logotyp"
+        },
+        "show-more": {
+            "show": "visa mer",
+            "hide": "dölja"
+        }
+    },
+    "views": {
+        "home": {
+            "home": {
+                "role-aria": "Valkompass"
+            },
+            "start": {
+                "section": {
+                    "banner-aria": "Startsektion"
+                }
+            },
+            "theses": {
+                "important-button": {
+                    "important": "Viktigt för mig",
+                    "important-aria": "Viktigt - markerar att den här avhandlingen är viktig för dig.",
+                    "too-many-important": "Det finns bara ett fåtal avhandlingar, så du kan inte markera en av dem som viktig. | Markera högst 1 avhandling som viktig för att få ett meningsfullt resultat! | Markera inte fler än {count} avhandlingar som viktiga för att få ett meningsfullt resultat!"
+                },
+                "skip-button": {
+                    "skip": "Jag vet inte.",
+                    "skip-aria": "Hoppa över - hoppar över denna avhandling så att den inte räknas.",
+                    "too-many-skip": "Det finns bara ett fåtal avhandlingar, så du kan inte hoppa över en. | Hoppa inte över mer än en avhandling för att få ett meningsfullt resultat! | Hoppa inte över fler än {count} avhandlingar för att få ett meningsfullt resultat!"
+                },
+                "statement-text": {
+                    "thesis": "Avhandling {räkning} / {total}",
+                    "statement-aria": "Avhandlingen är: \"{statement}\".",
+                    "quoteStart": "'",
+                    "quoteEnd": "'",
+                    "statement-badge": {
+                        "skip": "Du hoppade över detta",
+                        "skip-aria": "Du hoppade över denna avhandling.",
+                        "important": "Du markerade detta som viktigt",
+                        "important-aria": "Du har markerat denna tes som viktig."
+                    }
+                },
+                "statement-wrapper": {
+                    "role-aria": "Avhandling",
+                    "region-aria": "Avhandling {count} av {total}"
+                }
+            },
+            "party": {
+                "party-item": {
+                    "party-aria": "Part \"{party}\" - klicka här för att välja eller välja bort denna part för jämförelse."
+                },
+                "section": {
+                    "heading": "Välj de parter du vill jämföra",
+                    "instruction": "Välj de parter som du vill jämföra dina egna beslut med. Du kan välja så många parter du vill, men du måste välja minst två. Följande lista presenteras i samma ordning som partierna kommer att finnas med på valsedeln.",
+                    "proceed": "Klart"
+                }
+            },
+            "match": {
+                "match-display": {
+                    "match-aria": "Din matchning för partiet '{party}' är på {procent} %"
+                },
+                "section": {
+                    "heading": "Ditt resultat",
+                    "explanation": "I denna tabell beskrivs hur mycket du och respektive parter har kommit överens om ovanstående teser. Ju högre procentsats, desto mer stämmer era ståndpunkter överens. Tänk på att detta inte är någon röstningsrekommendation, utan ett verktyg för orientering och diskussion."
+                }
+            },
+            "compare": {
+                "additional-analysis": {
+                    "heading": "Statistik",
+                    "buttons": {
+                        "close": "Sluta med",
+                        "start": "Nu går vi.",
+                        "proceed": "Skicka och nästa",
+                        "open-questionnaire": "Öppna undersökningen i en ny flik"
+                    },
+                    "start": "Tack för att du delar med dig! Dina uppgifter blir mer värdefulla för statistiken om du delar med dig av lite mer bakgrundsinformation om dig själv - kan du hjälpa till lite mer? Svara helt enkelt på så många frågor som du vill!",
+                    "help-even-more": "Tack så mycket! Vill du hjälpa till ännu mer? Du kan svara på några mer specifika frågor här:",
+                    "thanks": "Tack för att du delar med dig! Det var alla frågorna - du hjälpte oss mycket! Klicka på \"Avsluta\" för att gå tillbaka till dina resultat.",
+                    "fields": {
+                        "age": {
+                            "name": "Ålder",
+                            "label": "Hur gammal är du nu?",
+                            "placeholder": "25",
+                            "description": "Din ålder är viktig för att undersöka vad människor i olika åldersgrupper tycker om teser och partier."
+                        },
+                        "gender": {
+                            "name": "Genus",
+                            "label": "Vilket är ditt kön?",
+                            "options": {
+                                "female": "kvinnlig",
+                                "diverse": "olika",
+                                "male": "manlig",
+                                "none": "inget svar"
+                            }
+                        },
+                        "education": {
+                            "name": "Kvalifikationer",
+                            "label": "Vilken är din högsta utbildning?",
+                            "options": {
+                                "student": "För närvarande studerar du",
+                                "nothing": "Inga fullständiga kvalifikationer",
+                                "lower": "mellanstadium eller liknande",
+                                "higher": "Gymnasieskola eller liknande",
+                                "academic": "Akademisk",
+                                "none": "inget svar"
+                            }
+                        },
+                        "party": {
+                            "name": "Parti",
+                            "label": "Om valet var i dag, vem skulle du rösta på?",
+                            "options": {
+                                "other": "Övriga",
+                                "non-voter": "Jag kommer inte att rösta",
+                                "not-eligible": "Jag är inte berättigad till stöd",
+                                "not-sure": "Jag är inte säker.",
+                                "none": "inget svar"
+                            }
+                        }
+                    }
+                },
+                "analysis-banner": {
+                    "heading": "Vill du donera dina svar till vetenskapen?",
+                    "explanation": "Du kan hjälpa {någon} att förstå valet bättre genom att donera dina svar och resultat till vetenskaplig forskning. Vi sparar endast anonymiserade uppgifter som vi inte kan spåra tillbaka till dig.",
+                    "send": "Skicka in statistiska uppgifter nu",
+                    "close": "Nej, fortsätt läsa"
+                },
+                "answer": {
+                    "skip": {
+                        "status-text": "okänd",
+                        "content": "Partiet \"{party}\" har inte lämnat några svar eller tagit ställning till denna avhandling."
+                    },
+                    "empty": {
+                        "content": "Partiet \"{party}\" har inte lämnat något uttalande för att förklara sin ståndpunkt i fråga om denna avhandling."
+                    }
+                },
+                "section": {
+                    "heading": "Deras svar",
+                    "explanation": "Parterna lämnar vanligtvis utlåtanden för varje tes för att förklara sina resonemang. Det är inte alltid uppenbart varför ett parti intar en viss ståndpunkt, så det rekommenderas att man läser dessa uttalanden eller respektive valmanifest.",
+                    "region-aria": "Avhandling {count} av {total}"
+                },
+                "friends-position": {
+                    "answer-aria": "{name}: {position}",
+                    "skip": "Skippade"
+                },
+                "kiosk-mode-hint": {
+                    "heading": "Återställ när du är klar",
+                    "explanation": "Ta god tid på dig att läsa och jämföra svaren på nedanstående påståenden. När du är klar kan du ställa om valkompassen här för nästa person. På så sätt raderas även dina egna svar. Tips: du kan också hitta en återställningsknapp i menyn. Tack!",
+                    "reset": "Återställ"
+                }
+            },
+            "footer": {
+                "section": {
+                    "explanation": "Den här valkompassen är baserad på det kostnadsfria open source-projektet {0}.",
+                    "oec": "OpenElectionCompass"
+                }
+            }
+        }
+    },
+    "validation": {
+        "names": {
+            "name": "Namn",
+            "remote-peer-id": "Vänns enhet"
+        },
+        "fields": {
+            "name": {
+                "min": "Ange ett namn.",
+                "regex": "Endast bokstäver, siffror och mellanslag, inga specialtecken.",
+                "required": "Ange ett namn."
+            }
+        }
+    },
+    "algorithm": {
+        "options": {
+            "strongly-approve": {
+                "button": "Godkänner helt och hållet",
+                "button-aria": "Godkänner starkt - klicka här för att starkt godkänna denna avhandling!",
+                "badge": "Du godkände starkt",
+                "badge-aria": "Du har starkt godkänt denna avhandling.",
+                "status": "godkänner starkt.",
+                "answer-aria": "Partiet \"{party}\" godkänner starkt denna tes med följande svar: {svar}"
+            },
+            "approve": {
+                "button": "Godkänna",
+                "button-aria": "Godkänna - klicka här för att godkänna avhandlingen!",
+                "badge": "Du godkände",
+                "badge-aria": "Du har godkänt denna avhandling.",
+                "status": "godkänner",
+                "answer-aria": "Partiet \"{party}\" godkänner denna tes med följande svar: {svar}"
+            },
+            "neutral": {
+                "button": "Neutral",
+                "button-aria": "Neutral - klicka här för att förbli neutral i fråga om denna tes!",
+                "badge": "Du är neutral",
+                "badge-aria": "Du är neutral när det gäller denna tes.",
+                "status": "neutral",
+                "answer-aria": "Partiet \"{party}\" förblir neutralt till denna tes och ger följande svar: {svar}"
+            },
+            "partly": {
+                "button": "Delvis",
+                "button-aria": "Delvis - klicka här för att delvis instämma i denna tes!",
+                "badge": "Du samtyckte delvis.",
+                "badge-aria": "Du instämde delvis i denna tes.",
+                "status": "delvis",
+                "answer-aria": "Partiet \"{party}\" stöder delvis denna tes genom att ge följande svar: {svar}"
+            },
+            "reject": {
+                "button": "Avvisa",
+                "button-aria": "Avvisa - klicka här för att avvisa denna avhandling!",
+                "badge": "Du avvisade",
+                "badge-aria": "Du förkastade denna tes.",
+                "status": "avvisar",
+                "answer-aria": "Partiet \"{party}\" förkastar denna tes med följande svar: {svar}"
+            },
+            "strongly-reject": {
+                "button": "Förkastar helt och hållet",
+                "button-aria": "Förkastar starkt - klicka här för att starkt förkasta denna tes!",
+                "badge": "Du avvisade bestämt",
+                "badge-aria": "Du förkastade starkt denna tes.",
+                "status": "förkastar starkt.",
+                "answer-aria": "Partiet \"{party}\" förkastar starkt denna tes med följande svar: {svar}"
+            }
+        }
+    }
+}
